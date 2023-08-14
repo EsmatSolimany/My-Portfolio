@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Crete Round", sans-serif;
+}
+/* Section Hero */
+
+.main-header {
+  background-color: #1c1a19;
+}
+.navagation {
+  height: 64px;
+  width: 100%;
+  background-color: rgb(63, 57, 57);
+  position: fixed;
+  overflow: hidden;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+.logo {
+  display: inline-block;
+  height: 54px;
+}
+.nav-logo {
+  display: inline-block;
+  height: 40px;
+}
+.my-logo {
+  margin-right: auto;
+  margin-left: 80px;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  gap: 24px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 7fr 9fr;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.title {
+  color: aliceblue;
+  align-self: center;
+  font-weight: 500;
+}
+.introduce {
+  color: #f55800;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 50.5px;
+}
+.skill {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 500;
+}
+.description {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.hero-image {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.icon {
+  height: 16px;
+  width: 16px;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+/* Main Section
+ */
+.main-section {
+  max-width: 1204px;
+  padding: 130px 24px 130px 24px;
+  margin: auto;
+}
+
+.main-container header {
+  max-width: 1133px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-left: 36px;
+}
+
+.my-work {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.line {
+  flex-grow: 1;
+  background-color: black;
+  height: 1.5px;
+  align-items: center;
+}
